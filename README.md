@@ -92,8 +92,16 @@ sed 명령어
 
 유닉스에서 개발된 스크립트 언어로 텍스트가 저장되어 있는 파일을 원하는 대로 필터링하거나 추가하는 기타 가공을 해서 행과 열을 출력하는 명령어
 
+즉 데이터를 조작, 리포터 생성하는 명령어입니다.
+
 ![awk](https://user-images.githubusercontent.com/94046904/141108477-99f3b294-befa-4d2b-8f2c-3bbe700f012b.png)
 
+awk명령어는 pettern, action을 입력합니다.
+
+형식 :
+- awk 'pettern' file
+- awk '{action}' file
+- awk 'pattern {action}' file
 
 
 

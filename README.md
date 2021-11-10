@@ -103,6 +103,44 @@ awk명령어는 pettern, action을 입력합니다.
 - awk '{action}' file
 - awk 'pattern {action}' file
 
+ex) 1 2
+    
+    5 5
+    라는 행렬이 있습니다.
+awk '{print $1 * $2}'
+- 2
+- 25이 출력됩니다.
+
+행 번호 출력하기도 가능합니다.
+- awk -F, '{print NR " " $0;}'
+- 1 1, 2
+- 2 5, 5
+- awk -F, '{print NR-1 " " $0}'
+- 0 1, 2
+- 1 5, 5
+
+특정 열에 특정 문자열이 존재하는 행만 출력 가능
+- awk '$1=="1"'
+- 1 2
+- awk '$1!="1"'
+- 5 5
+
+합계, 평균, 최대값, 최소값도 구할수 있다
+
+1 
+
+2
+
+3
+
+- awk '{sum+=$1}END{print sum}'
+- 6
+- awk '{sum+=$1}END{print sum/NR}'
+- 2
+- awk 'NR==1{max+$1}{if($1 > max) max = $1}END{print max}'
+- 3
+- awk 'NR==1{min+$1}{if($1 < min) min = $1}END{print min}'
+- 1
 
 
 

@@ -17,4 +17,14 @@
  *  a) a option
  *  b) b option
  *  c) c option을 줍니다
-argument 
+argument
+
+![argument](https://user-images.githubusercontent.com/94046904/141102275-03837384-9f57-43bb-8968-ec7dd7009400.png)
+
+while + getopts를 이용하면 사용할 수 있습니다.
+
+위 코드에서 : 추가하면 됩니다.
+* while getopts "a:bc" opt; do
+이렇게 추가를 하면됩니다.
+- option : verbose mode
+- :option: silent mode 지정하여 사용합니다.

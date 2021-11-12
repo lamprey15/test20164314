@@ -1,8 +1,10 @@
 ##test20164314
 
+<img src= "https://user-images.githubusercontent.com/94046904/141396375-97d32084-e0c2-46a5-a374-cffd4dcbd2e3.jpg" width="300" height="300">
+
 ---
 
-(쉘 스크립트 관련) getopt 및 getopts 명령어
+**(쉘 스크립트 관련) getopt 및 getopts 명령어**
 
 ***
 ![getopts](https://user-images.githubusercontent.com/94046904/141101772-90c67ad7-dde5-4e11-b75e-b32c670cffe9.png)
@@ -47,7 +49,7 @@ value가 추가된다는 의미를 표현합니다.
 
 ---
 
-리눅스 명령어 sed 및 awk 명령어
+**리눅스 명령어 sed 및 awk 명령어**
 
 ***
 
@@ -62,7 +64,7 @@ sed 명령은 편집기 명령어로 생각하면 편합니다.
 
 ![sed](https://user-images.githubusercontent.com/94046904/141108123-ebd5260c-f764-482a-8a52-1c7a90f07440.png)
 
-sed 명령어
+*sed 명령어*
 - -n : 패턴 버퍼의 자동출력을 맞는 option
 - -e : command를 가지고 파일을 가공합니다.
 - - sed -n -e '1p' -e '4p'
@@ -88,7 +90,7 @@ sed 명령어
 
 ***
 
-명령어 awk
+*명령어 awk*
 
 유닉스에서 개발된 스크립트 언어로 텍스트가 저장되어 있는 파일을 원하는 대로 필터링하거나 추가하는 기타 가공을 해서 행과 열을 출력하는 명령어
 

@@ -2,6 +2,7 @@
 
 <img src= "https://user-images.githubusercontent.com/94046904/141396375-97d32084-e0c2-46a5-a374-cffd4dcbd2e3.jpg" width="300" height="300">
 
+
 ---
 
 **(쉘 스크립트 관련) getopt 및 getopts 명령어**
@@ -62,7 +63,7 @@ sed 명령은 편집기 명령어로 생각하면 편합니다.
 - 하지만 sed 명령어 -i option을 지정하면 원본을 바꾸게 됩니다.
 - sed명령어는 저장 공간을 보유하고 있습니다. 패턴 버퍼, 홀드 버퍼
 
-![sed](https://user-images.githubusercontent.com/94046904/141108123-ebd5260c-f764-482a-8a52-1c7a90f07440.png)
+<img src= "https://user-images.githubusercontent.com/94046904/141108123-ebd5260c-f764-482a-8a52-1c7a90f07440.png" width="300" height="400">
 
 *sed 명령어*
 - -n : 패턴 버퍼의 자동출력을 맞는 option
